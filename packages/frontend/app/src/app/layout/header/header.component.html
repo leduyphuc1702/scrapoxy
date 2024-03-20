@@ -5,6 +5,23 @@
 
     @if (client) {
         <c-header-nav>
+            <c-nav-item cTooltip="Exposed IP Address" cTooltipPlacement="bottom">
+                <svg cIcon name="cilWifi"></svg>
+                192.168.20.1
+            </c-nav-item>
+
+            <c-nav-item cTooltip="Version" cTooltipPlacement="bottom">
+                <svg cIcon name="cilCode"></svg>
+                v4.6.0
+            </c-nav-item>
+
+            <c-nav-item cTooltip="Installation ID" cTooltipPlacement="bottom">
+                <svg cIcon name="cilTag"></svg>
+                21e71fb2-df2b-47cb-bd5e-4f0e7458a9e3
+            </c-nav-item>
+        </c-header-nav>
+
+        <c-header-nav>
             <ng-container *ngTemplateOutlet="clientDropdown"></ng-container>
         </c-header-nav>
     }

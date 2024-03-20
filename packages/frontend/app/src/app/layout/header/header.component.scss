@@ -4,6 +4,16 @@
     padding-left: 0.25rem;
 }
 
+.nav-item {
+    .icon {
+        margin-right: 0.2rem;
+    }
+
+    &:not(:last-child) {
+        margin-right: 2.5rem;
+    }
+}
+
 .nav-link.btn {
     padding-top: 0;
     padding-bottom: 0;

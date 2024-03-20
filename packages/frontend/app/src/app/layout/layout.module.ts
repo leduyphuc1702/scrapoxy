@@ -6,6 +6,7 @@ import {
     ButtonModule,
     CardModule,
     DropdownModule,
+    FormCheckComponent,
     GridModule,
     HeaderModule,
     ModalModule,
@@ -13,9 +14,12 @@ import {
     SharedModule,
     SidebarModule,
     ToastModule,
+    TooltipDirective,
+    TooltipModule,
     UtilitiesModule,
 } from '@coreui/angular';
 import { IconModule } from '@coreui/icons-angular';
+import { SharedSpxModule } from '@scrapoxy/frontend-sdk';
 import { NgScrollbarModule } from 'ngx-scrollbar';
 import { ConfirmComponent } from './confirm/confirm.component';
 import { ConnectionComponent } from './connection/connection.component';
@@ -42,7 +46,11 @@ import { ToastMessageComponent } from './toasts/message.component';
         SharedModule,
         SidebarModule,
         ToastModule,
+        TooltipModule,
         UtilitiesModule,
+        SharedSpxModule,
+        FormCheckComponent,
+        TooltipDirective,
     ],
     declarations: [
         ConfirmComponent,

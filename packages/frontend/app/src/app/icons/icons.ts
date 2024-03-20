@@ -15,6 +15,7 @@ import {
     cilCloud,
     cilCloudDownload,
     cilCloudUpload,
+    cilCode,
     cilCog,
     cilFaceDead,
     cilFactory,
@@ -35,6 +36,7 @@ import {
     cilReload,
     cilSitemap,
     cilSpeedometer,
+    cilTag,
     cilTransfer,
     cilTrash,
     cilUser,
@@ -46,6 +48,7 @@ import {
 } from '@coreui/icons';
 import { cilEdit } from './cil-edit';
 import { cilEye } from './cil-eye';
+import { cilWifi } from './cil-wifi';
 
 
 export const icons = {
@@ -66,6 +69,7 @@ export const icons = {
     cilCloud,
     cilCloudDownload,
     cilCloudUpload,
+    cilCode,
     cilCog,
     cilEdit,
     cilEye,
@@ -88,10 +92,12 @@ export const icons = {
     cilReload,
     cilSitemap,
     cilSpeedometer,
+    cilTag,
     cilTransfer,
     cilTrash,
     cilUser,
     cilWarning,
+    cilWifi,
     cilX,
     cilXCircle,
     cilZoom,
